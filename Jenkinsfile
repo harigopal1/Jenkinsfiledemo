@@ -11,9 +11,11 @@ pipeline {
             steps {
                 echo 'in qa env'
             }
+        }
             stage('STAG') {
             steps {
                 echo 'in satge env'
+            }
             }
             stage('PROD') {
             steps {
